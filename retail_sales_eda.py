@@ -67,9 +67,6 @@ plt.show()
 # ------------------------------------------
 # 6. Customer Demographics Analysis
 # ------------------------------------------
-# ------------------------------------------
-# 6. Customer Demographics Analysis
-# ------------------------------------------
 plt.figure()
 df['gender'].value_counts().plot(kind='pie', autopct='%1.1f%%')
 plt.title("Customer Gender Distribution")
@@ -120,3 +117,4 @@ print("4. Specific shopping malls contribute significantly to sales.")
 print("5. Middle-aged customers dominate purchasing behavior.")
 
 print("\nEDA Project Completed Successfully!")
+
